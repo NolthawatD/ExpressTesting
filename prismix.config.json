@@ -1,0 +1,14 @@
+{
+	"mixers": [
+	  {
+		  "input": [
+			  "./prisma/base.prisma",
+			  "./prisma/schemas/post.prisma",
+			  "./prisma/schemas/account.prisma",
+			  "./prisma/schemas/author.prisma",
+			  "./prisma/schemas/book.prisma"
+		  ],
+		  "output": "./prisma/schema.prisma"
+	  }
+	]
+  }
