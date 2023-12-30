@@ -1,7 +1,7 @@
 model Author {
-  id        Int      @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  firstName String
-  lastName  String
+    id Int @id @default(autoincrement())
+    firstName String
+    lastName  String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }
